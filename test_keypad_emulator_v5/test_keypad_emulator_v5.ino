@@ -19,7 +19,7 @@ void setup()
   Serial.println("Initializing..."); 
   delay(1000);
  /* 
-  //set all pins as outputs
+  //set all pins as outputs --+
   pinMode (col1, INPUT);
   pinMode (col2, INPUT);
   pinMode (col3, INPUT);
@@ -49,8 +49,8 @@ void emulate()
   pinMode (row2, INPUT);
   pinMode (row3, INPUT);
   pinMode (row4, INPUT);
-  digitalWrite (col1, LOW);
-  digitalWrite (row1, LOW);
+  digitalWrite (col1, HIGH);
+  digitalWrite (row1, HIGH);
   delay (1000);
 
   Serial.println("2");
@@ -61,8 +61,8 @@ void emulate()
   pinMode (row2, INPUT);
   pinMode (row3, INPUT);
   pinMode (row4, INPUT);
-  digitalWrite (col2, LOW);
-  digitalWrite (row1, LOW);
+  digitalWrite (col2, HIGH);
+  digitalWrite (row1, HIGH);
   delay (1000);
 
   Serial.println("3");
@@ -73,8 +73,8 @@ void emulate()
   pinMode (row2, INPUT);
   pinMode (row3, INPUT);
   pinMode (row4, INPUT);
-  digitalWrite (col3, LOW);
-  digitalWrite (row1, LOW);
+  digitalWrite (col3, HIGH);
+  digitalWrite (row1, HIGH);
   delay (1000);
 
   Serial.println("4");
@@ -85,8 +85,8 @@ void emulate()
   pinMode (row2, OUTPUT);
   pinMode (row3, INPUT);
   pinMode (row4, INPUT);
-  digitalWrite (col1, LOW);
-  digitalWrite (row2, LOW);
+  digitalWrite (col1, HIGH);
+  digitalWrite (row2, HIGH);
   delay (1000);
         
   Serial.println("5");
@@ -97,8 +97,8 @@ void emulate()
   pinMode (row2, OUTPUT);
   pinMode (row3, INPUT);
   pinMode (row4, INPUT);
-  digitalWrite (col2, LOW);
-  digitalWrite (row2, LOW);
+  digitalWrite (col2, HIGH);
+  digitalWrite (row2, HIGH);
   delay (1000);
 
   Serial.println("6");
@@ -109,8 +109,8 @@ void emulate()
   pinMode (row2, OUTPUT);
   pinMode (row3, INPUT);
   pinMode (row4, INPUT);
-  digitalWrite (col3, LOW);
-  digitalWrite (row2, LOW);
+  digitalWrite (col3, HIGH);
+  digitalWrite (row2, HIGH);
   delay (1000);
 
   Serial.println("7");
@@ -121,8 +121,8 @@ void emulate()
   pinMode (row2, INPUT);
   pinMode (row3, OUTPUT);
   pinMode (row4, INPUT);
-  digitalWrite (col1, LOW);
-  digitalWrite (row3, LOW);
+  digitalWrite (col1, HIGH);
+  digitalWrite (row3, HIGH);
   delay (1000);
 
   Serial.println("8");
@@ -133,8 +133,8 @@ void emulate()
   pinMode (row2, INPUT);
   pinMode (row3, OUTPUT);
   pinMode (row4, INPUT);
-  digitalWrite (col2, LOW);
-  digitalWrite (row3, LOW);
+  digitalWrite (col2, HIGH);
+  digitalWrite (row3, HIGH);
   delay (1000);
 
   Serial.println("9");
@@ -145,8 +145,8 @@ void emulate()
   pinMode (row2, INPUT);
   pinMode (row3, OUTPUT);
   pinMode (row4, INPUT);
-  digitalWrite (col3, LOW);
-  digitalWrite (row3, LOW);
+  digitalWrite (col3, HIGH);
+  digitalWrite (row3, HIGH);
   delay (1000);
 
   Serial.println("*");
@@ -157,8 +157,8 @@ void emulate()
   pinMode (row2, INPUT);
   pinMode (row3, INPUT);
   pinMode (row4, OUTPUT);
-  digitalWrite (col1, LOW);
-  digitalWrite (row4, LOW);
+  digitalWrite (col1, HIGH);
+  digitalWrite (row4, HIGH);
   delay (1000);
 
   Serial.println("0");
@@ -169,8 +169,8 @@ void emulate()
   pinMode (row2, INPUT);
   pinMode (row3, INPUT);
   pinMode (row4, OUTPUT);
-  digitalWrite (col2, LOW);
-  digitalWrite (row4, LOW);
+  digitalWrite (col2, HIGH);
+  digitalWrite (row4, HIGH);
   delay (1000);
 
   Serial.println("#");
@@ -181,8 +181,8 @@ void emulate()
   pinMode (row2, INPUT);
   pinMode (row3, INPUT);
   pinMode (row4, OUTPUT);
-  digitalWrite (col3, LOW);
-  digitalWrite (row4, LOW);
+  digitalWrite (col3, HIGH);
+  digitalWrite (row4, HIGH);
   delay (1000);        
  
 }
