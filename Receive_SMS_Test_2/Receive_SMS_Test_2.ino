@@ -65,10 +65,13 @@ void updateSerial()
 
 void serialEvent()
 {
-  while (Serial.available()) 
+  /*
+   while (Serial.available()) 
   {
     mySerial.write(Serial.read());//Forward what Serial received to Software Serial Port,... allows sending commands to SIM800L?
   } 
+
+  */
   while(mySerial.available()) 
   {
     char inChar = (char)mySerial.read();    // get the new byte:
