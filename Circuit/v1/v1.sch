@@ -1,0 +1,371 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11774 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9300 2300 8500 2300
+Text Label 9300 2300 0    70   ~ 0
+TX
+Wire Wire Line
+	7300 4300 8100 4300
+Text Label 8100 4300 0    70   ~ 0
+TX
+Wire Wire Line
+	8500 2200 9300 2200
+Text Label 9300 2200 0    70   ~ 0
+RX
+Wire Wire Line
+	7300 4400 8100 4400
+Text Label 8100 4400 0    70   ~ 0
+RX
+Wire Wire Line
+	8500 2700 9300 2700
+Text Label 9300 2700 0    70   ~ 0
+6
+Wire Wire Line
+	2200 3900 1400 3900
+Text Label 1400 3900 0    70   ~ 0
+6
+Wire Wire Line
+	8500 2800 9300 2800
+Text Label 9300 2800 0    70   ~ 0
+5
+Wire Wire Line
+	2200 3800 1400 3800
+Text Label 1400 3800 0    70   ~ 0
+5
+Wire Wire Line
+	8500 2900 9300 2900
+Text Label 9300 2900 0    70   ~ 0
+4
+Wire Wire Line
+	2200 1900 1400 1900
+Text Label 1400 1900 0    70   ~ 0
+4
+Wire Wire Line
+	8500 3000 9300 3000
+Text Label 9300 3000 0    70   ~ 0
+3
+Wire Wire Line
+	2200 1800 1400 1800
+Text Label 1400 1800 0    70   ~ 0
+3
+Wire Wire Line
+	8500 3100 9300 3100
+Text Label 9300 3100 0    70   ~ 0
+2
+Wire Wire Line
+	2200 1700 1400 1700
+Text Label 1400 1700 0    70   ~ 0
+2
+Wire Wire Line
+	7300 4000 8100 4000
+Text Label 8100 4000 0    70   ~ 0
+VCC
+Wire Wire Line
+	6800 2500 6000 2500
+Text Label 6000 2500 0    70   ~ 0
+VCC
+Wire Wire Line
+	2200 1300 1400 1300
+Text Label 1400 1300 0    70   ~ 0
+VCC
+Wire Wire Line
+	2200 3400 1400 3400
+Text Label 1400 3400 0    70   ~ 0
+VCC
+Wire Wire Line
+	4600 5800 5400 5800
+Text Label 5400 5800 0    70   ~ 0
+VCC
+Wire Wire Line
+	7300 4100 8100 4100
+Text Label 8100 4100 0    70   ~ 0
+GND
+Wire Wire Line
+	7300 4500 8100 4500
+Text Label 8100 4500 0    70   ~ 0
+GND
+Wire Wire Line
+	6800 2300 6400 2300
+Wire Wire Line
+	6400 2300 6000 2300
+Wire Wire Line
+	6800 2400 6400 2400
+Wire Wire Line
+	6400 2400 6400 2300
+Connection ~ 6400 2300
+Text Label 6000 2300 0    70   ~ 0
+GND
+Wire Wire Line
+	2200 2000 1800 2000
+Wire Wire Line
+	1800 2000 1400 2000
+Wire Wire Line
+	2200 2200 1800 2200
+Wire Wire Line
+	1800 2200 1800 2000
+Connection ~ 1800 2000
+Text Label 1400 2000 0    70   ~ 0
+GND
+Wire Wire Line
+	2200 1500 1400 1500
+Text Label 1400 1500 0    70   ~ 0
+GND
+Wire Wire Line
+	2200 4100 1800 4100
+Wire Wire Line
+	1800 4100 1400 4100
+Wire Wire Line
+	2200 4300 1800 4300
+Wire Wire Line
+	1800 4300 1800 4100
+Connection ~ 1800 4100
+Text Label 1400 4100 0    70   ~ 0
+GND
+Wire Wire Line
+	2200 3600 1400 3600
+Text Label 1400 3600 0    70   ~ 0
+GND
+Wire Wire Line
+	2800 6500 3600 6500
+Text Label 3600 6500 0    70   ~ 0
+GND
+Wire Wire Line
+	2800 5100 3600 5100
+Text Label 3600 5100 0    70   ~ 0
+GND
+Wire Wire Line
+	4600 5100 5400 5100
+Text Label 5400 5100 0    70   ~ 0
+GND
+Wire Wire Line
+	7300 5000 8100 5000
+Text Label 8100 5000 0    70   ~ 0
+COL3
+Wire Wire Line
+	4400 3600 5200 3600
+Text Label 5200 3600 0    70   ~ 0
+COL3
+Wire Wire Line
+	9400 5000 10200 5000
+Text Label 10200 5000 0    70   ~ 0
+COL3
+Wire Wire Line
+	7300 5100 8100 5100
+Text Label 8100 5100 0    70   ~ 0
+COL2
+Wire Wire Line
+	4400 3500 5200 3500
+Text Label 5200 3500 0    70   ~ 0
+COL2
+Wire Wire Line
+	9400 5100 10200 5100
+Text Label 10200 5100 0    70   ~ 0
+COL2
+Wire Wire Line
+	7300 5200 8100 5200
+Text Label 8100 5200 0    70   ~ 0
+COL1
+Wire Wire Line
+	4400 3400 5200 3400
+Text Label 5200 3400 0    70   ~ 0
+COL1
+Wire Wire Line
+	9400 5200 10200 5200
+Text Label 10200 5200 0    70   ~ 0
+COL1
+Wire Wire Line
+	7300 5300 8100 5300
+Text Label 8100 5300 0    70   ~ 0
+ROW4
+Wire Wire Line
+	4400 1600 5200 1600
+Text Label 5200 1600 0    70   ~ 0
+ROW4
+Wire Wire Line
+	9400 5300 10200 5300
+Text Label 10200 5300 0    70   ~ 0
+ROW4
+Wire Wire Line
+	7300 5400 8100 5400
+Text Label 8100 5400 0    70   ~ 0
+ROW3
+Wire Wire Line
+	4400 1500 5200 1500
+Text Label 5200 1500 0    70   ~ 0
+ROW3
+Wire Wire Line
+	9400 5400 10200 5400
+Text Label 10200 5400 0    70   ~ 0
+ROW3
+Wire Wire Line
+	7300 5500 8100 5500
+Text Label 8100 5500 0    70   ~ 0
+ROW2
+Wire Wire Line
+	4400 1400 5200 1400
+Text Label 5200 1400 0    70   ~ 0
+ROW2
+Wire Wire Line
+	9400 5500 10200 5500
+Text Label 10200 5500 0    70   ~ 0
+ROW2
+Wire Wire Line
+	7300 5600 8100 5600
+Text Label 8100 5600 0    70   ~ 0
+ROW1
+Wire Wire Line
+	4400 1300 5200 1300
+Text Label 5200 1300 0    70   ~ 0
+ROW1
+Wire Wire Line
+	9400 5600 10200 5600
+Text Label 10200 5600 0    70   ~ 0
+ROW1
+Wire Wire Line
+	4400 2200 5200 2200
+Text Label 5200 2200 0    70   ~ 0
+COM
+Wire Wire Line
+	4400 4300 5200 4300
+Text Label 5200 4300 0    70   ~ 0
+COM
+Wire Wire Line
+	8500 2600 9300 2600
+Text Label 9300 2600 0    70   ~ 0
+7
+Wire Wire Line
+	2200 4000 1400 4000
+Text Label 1400 4000 0    70   ~ 0
+7
+Wire Wire Line
+	2800 6600 3600 6600
+Text Label 3600 6600 0    70   ~ 0
+12V
+Wire Wire Line
+	2800 5800 3600 5800
+Text Label 3600 5800 0    70   ~ 0
+12V
+$Comp
+L v1-eagle-import:CD4051BE U1
+U 1 1 F9562130
+P 3300 1600
+F 0 "U1" H 3093 2205 69  0000 L BNN
+F 1 "CD4051BE" H 3162 615 69  0000 L BNN
+F 2 "v1:DIP254P762X508-16" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
+	1    3300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L v1-eagle-import:CD4051BE U2
+U 1 1 C2DEB937
+P 3300 3700
+F 0 "U2" H 3093 4305 69  0000 L BNN
+F 1 "CD4051BE" H 3162 2715 69  0000 L BNN
+F 2 "v1:DIP254P762X508-16" H 3300 3700 50  0001 C CNN
+F 3 "" H 3300 3700 50  0001 C CNN
+	1    3300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L v1-eagle-import:ARDUINO_UNO PCB1
+U 1 1 EF5B0DB8
+P 7700 2300
+F 0 "PCB1" H 7700 2300 50  0001 C CNN
+F 1 "ARDUINO_UNO" H 7700 2300 50  0001 C CNN
+F 2 "v1:ARDUINO_UNO" H 7700 2300 50  0001 C CNN
+F 3 "" H 7700 2300 50  0001 C CNN
+	1    7700 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L v1-eagle-import:MA07-1 GSM1
+U 1 1 C287138E
+P 7000 4300
+F 0 "GSM1" H 6950 4730 59  0000 L BNN
+F 1 "MA07-1" H 6950 3800 59  0000 L BNN
+F 2 "v1:MA07-1" H 7000 4300 50  0001 C CNN
+F 3 "" H 7000 4300 50  0001 C CNN
+	1    7000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L v1-eagle-import:MA07-1 KEYPAD2
+U 1 1 19CC4F9C
+P 7000 5300
+F 0 "KEYPAD2" H 6950 5730 59  0000 L BNN
+F 1 "MA07-1" H 6950 4800 59  0000 L BNN
+F 2 "v1:MA07-1" H 7000 5300 50  0001 C CNN
+F 3 "" H 7000 5300 50  0001 C CNN
+	1    7000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L v1-eagle-import:MA08-1 POWER_OUT1
+U 1 1 065E8600
+P 4300 5500
+F 0 "POWER_OUT1" H 4250 6030 59  0000 L BNN
+F 1 "MA08-1" H 4250 5000 59  0000 L BNN
+F 2 "v1:MA08-1" H 4300 5500 50  0001 C CNN
+F 3 "" H 4300 5500 50  0001 C CNN
+	1    4300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L v1-eagle-import:MA08-1 POWER_IN1
+U 1 1 E04ADB6A
+P 2500 5500
+F 0 "POWER_IN1" H 2450 6030 59  0000 L BNN
+F 1 "MA08-1" H 2450 5000 59  0000 L BNN
+F 2 "v1:MA08-1" H 2500 5500 50  0001 C CNN
+F 3 "" H 2500 5500 50  0001 C CNN
+	1    2500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L v1-eagle-import:1X2-3.5MM VIN1
+U 1 1 62947D23
+P 2600 6500
+F 0 "VIN1" H 2600 6300 59  0000 L BNN
+F 1 "1X2-3.5MM" H 2600 6500 50  0001 C CNN
+F 2 "v1:1X2-3.5MM" H 2600 6500 50  0001 C CNN
+F 3 "" H 2600 6500 50  0001 C CNN
+	1    2600 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L v1-eagle-import:MA07-1 KEYPAD1
+U 1 1 E1EDF5B1
+P 9100 5300
+F 0 "KEYPAD1" H 9050 5730 59  0000 L BNN
+F 1 "MA07-1" H 9050 4800 59  0000 L BNN
+F 2 "v1:MA07-1" H 9100 5300 50  0001 C CNN
+F 3 "" H 9100 5300 50  0001 C CNN
+	1    9100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L v1-eagle-import:A4L-LOC #FRAME1
+U 1 1 73DA64CA
+P 900 7300
+F 0 "#FRAME1" H 900 7300 50  0001 C CNN
+F 1 "A4L-LOC" H 900 7300 50  0001 C CNN
+F 2 "" H 900 7300 50  0001 C CNN
+F 3 "" H 900 7300 50  0001 C CNN
+	1    900  7300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
