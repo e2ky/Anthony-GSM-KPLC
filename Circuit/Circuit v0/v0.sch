@@ -1369,13 +1369,13 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <part name="U2" library="Texas Instruments_By_element14_Batch_1" deviceset="CD4051BE" device=""/>
 <part name="GSM" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA07-1" device="" package3d_urn="urn:adsk.eagle:package:8341/1"/>
 <part name="KEYPAD" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA07-1" device="" package3d_urn="urn:adsk.eagle:package:8341/1"/>
-<part name="POWER_OUT" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-1" device="" package3d_urn="urn:adsk.eagle:package:8343/1"/>
 <part name="POWER_IN" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-1" device="" package3d_urn="urn:adsk.eagle:package:8343/1"/>
 <part name="VIN" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="KEYPAD1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA07-1" device="" package3d_urn="urn:adsk.eagle:package:8341/1"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="VIN2" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="JACK-PLUG" device="0" package3d_urn="urn:adsk.eagle:package:7492/1"/>
 <part name="B1" library="SparkFun-Boards" library_urn="urn:adsk.eagle:library:509" deviceset="ARDUINO_UNO_R3" device="NO_HOLES" package3d_urn="urn:adsk.eagle:package:37331/1" value="ARDUINO_UNO_R3NO_HOLES"/>
+<part name="POWER_OUT" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA08-1" device="" package3d_urn="urn:adsk.eagle:package:8343/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -1397,10 +1397,6 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <instance part="KEYPAD" gate="1" x="96.52" y="0" smashed="yes">
 <attribute name="VALUE" x="95.25" y="-12.7" size="1.778" layer="96"/>
 <attribute name="NAME" x="95.25" y="10.922" size="1.778" layer="95"/>
-</instance>
-<instance part="POWER_OUT" gate="1" x="27.94" y="-5.08" smashed="yes">
-<attribute name="VALUE" x="26.67" y="-17.78" size="1.778" layer="96"/>
-<attribute name="NAME" x="26.67" y="8.382" size="1.778" layer="95"/>
 </instance>
 <instance part="POWER_IN" gate="1" x="-17.78" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="-19.05" y="-17.78" size="1.778" layer="96"/>
@@ -1425,6 +1421,10 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <instance part="B1" gate="G$1" x="104.14" y="83.82" smashed="yes">
 <attribute name="NAME" x="94.488" y="115.062" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="93.98" y="53.086" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="POWER_OUT" gate="1" x="27.94" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="26.67" y="-17.78" size="1.778" layer="96"/>
+<attribute name="NAME" x="26.67" y="8.382" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -1531,9 +1531,9 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <label x="-45.72" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="POWER_OUT" gate="1" pin="1"/>
 <wire x1="35.56" y1="-12.7" x2="55.88" y2="-12.7" width="0.1524" layer="91"/>
 <label x="55.88" y="-12.7" size="1.778" layer="95"/>
+<pinref part="POWER_OUT" gate="1" pin="1"/>
 </segment>
 <segment>
 <pinref part="VIN2" gate="G$1" pin="3"/>
@@ -1611,9 +1611,9 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <label x="10.16" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="POWER_OUT" gate="1" pin="8"/>
 <wire x1="35.56" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
 <label x="55.88" y="5.08" size="1.778" layer="95"/>
+<pinref part="POWER_OUT" gate="1" pin="8"/>
 </segment>
 <segment>
 <pinref part="VIN2" gate="G$1" pin="2"/>
