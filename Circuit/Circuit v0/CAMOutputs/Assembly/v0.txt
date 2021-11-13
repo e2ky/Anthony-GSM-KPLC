@@ -1,0 +1,9 @@
+Partlist exported from /home/kimani/Documents/Projects/Anthony GSM KPLC/Circuit/Circuit v0/v0.sch at 02/11/2021 11:02
+
+Qty Value                  Device                 Package             Parts                Description                                                                       MF MPN      OC_FARNELL OC_NEWARK PACKAGE POPULARITY SUPPLIER         
+1                          JACK-PLUG0             SPC4077             VIN2                 DC POWER JACK                                                                                 unknown    unknown           0                           
+3                          MA07-1                 MA07-1              GSM, KEYPAD, KEYPAD1 PIN HEADER                                                                                    unknown    unknown           4                           
+2                          MA08-2                 MA08-2              POWER_IN, POWER_OUT  PIN HEADER                                                                                    unknown    unknown           0                           
+1   1X2-3.5MM              1X2-3.5MM              1X2-3.5MM           VIN                  3.5mm Terminal block                                                                                                                                   
+1   ARDUINO_UNO_R3NO_HOLES ARDUINO_UNO_R3NO_HOLES ARDUINO_R3_NO_HOLES B1                   Arduino R3 Footprint with SPI header                                                                                                                   
+2   CD4051BE               CD4051BE               DIP254P762X508-16   U1, U2               The CD4051B is a single 8-Channel multiplexer having three binary control inputs.    CD4051BE 1106109    60K5119   PDIP-16            Texas Instruments
