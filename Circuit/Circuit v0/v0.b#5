@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -26,14 +26,14 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -949,6 +949,24 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="10" x="59.182" y="75.692" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="56.261" y="76.962" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
+<element name="POWER_IN1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA08-1" package3d_urn="urn:adsk.eagle:package:8343/1" value="" x="2.54" y="-5.08" smashed="yes">
+<attribute name="MF" value="" x="2.54" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="2.54" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.62" y="-3.429" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="2.54" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="2.54" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="10" x="2.54" y="-5.08" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="1.27" y="-8.001" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="POWER_OUT1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA08-1" package3d_urn="urn:adsk.eagle:package:8343/1" value="" x="2.54" y="-12.7" smashed="yes">
+<attribute name="MF" value="" x="2.54" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="2.54" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.62" y="-11.049" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="2.54" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="2.54" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="10" x="2.54" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="1.27" y="-15.621" size="1.27" layer="27" ratio="10"/>
+</element>
 </elements>
 <signals>
 <signal name="TX">
@@ -1048,6 +1066,8 @@ design rules under a new name.</description>
 <wire x1="47.922" y1="84.582" x2="59.182" y2="84.582" width="1" layer="16"/>
 <wire x1="59.182" y1="84.582" x2="76.7316" y2="84.582" width="1" layer="16"/>
 <wire x1="76.7316" y1="84.582" x2="76.7842" y2="84.6346" width="1" layer="16"/>
+<contactref element="POWER_OUT1" pad="1"/>
+<wire x1="-6.35" y1="-12.7" x2="68.834" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND" class="1">
 <contactref element="GSM" pad="6"/>
@@ -1151,6 +1171,10 @@ design rules under a new name.</description>
 <wire x1="40.6192" y1="56.6628" x2="40.6192" y2="57.32628125" width="1" layer="16"/>
 <wire x1="40.6192" y1="57.32628125" x2="35.18148125" y2="62.764" width="1" layer="16"/>
 <wire x1="35.18148125" y1="62.764" x2="6.35" y2="62.764" width="1" layer="16"/>
+<contactref element="POWER_IN1" pad="8"/>
+<contactref element="POWER_OUT1" pad="8"/>
+<wire x1="11.43" y1="-5.08" x2="24.13" y2="8.128" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="-12.7" x2="11.43" y2="-5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL3">
 <contactref element="KEYPAD" pad="7"/>
@@ -1302,6 +1326,8 @@ design rules under a new name.</description>
 <wire x1="5.6" y1="77.86" x2="12" y2="84.26" width="1" layer="16"/>
 <wire x1="18" y1="84.26" x2="18.288" y2="84.582" width="1" layer="16"/>
 <wire x1="5.6" y1="77.86" x2="5.588" y2="77.746" width="1" layer="16"/>
+<contactref element="POWER_IN1" pad="1"/>
+<wire x1="-6.35" y1="-5.08" x2="5.588" y2="77.746" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <polygon width="1" layer="16" orphans="yes">

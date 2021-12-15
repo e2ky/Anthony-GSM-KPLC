@@ -12,12 +12,13 @@ bool ignoreString = true;        //flag to determine whether to ignore line
 
 void setup()
 {
+  //Begin serial communication with Arduino and Arduino IDE (Serial Monitor)
+  Serial.begin(9600);
+  delay(1000);
+  
   Serial.println("Initializing...");
   delay(1000);
   
-  //Begin serial communication with Arduino and Arduino IDE (Serial Monitor)
-  Serial.begin(9600);
-
   setup_sim800l();          // run sim800l setup
 
   setup_emulator();         // run keypad_emulate setup
@@ -56,9 +57,9 @@ void serialEvent()
     if (!ignoreString)    // if the line is not a system message, emulate keypad stroke
     {
       emulate_key();    //code to emulate keypad stroke
-      delay (500);
+      delay (750);
       key_release();
-      delay (500);
+      delay (750);
     }
 
     if (stringComplete)

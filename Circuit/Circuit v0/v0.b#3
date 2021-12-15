@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -158,10 +158,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="99.06" y2="0" width="0.8128" layer="20"/>
-<wire x1="99.06" y1="0" x2="99.06" y2="91.44" width="0.8128" layer="20"/>
-<wire x1="99.06" y1="91.44" x2="0" y2="91.44" width="0.8128" layer="20"/>
-<wire x1="0" y1="91.44" x2="0" y2="0" width="0.8128" layer="20"/>
+<wire x1="0" y1="0" x2="99.06" y2="0" width="0.127" layer="20"/>
+<wire x1="99.06" y1="0" x2="99.06" y2="91.44" width="0.127" layer="20"/>
+<wire x1="99.06" y1="91.44" x2="0" y2="91.44" width="0.127" layer="20"/>
+<wire x1="0" y1="91.44" x2="0" y2="0" width="0.127" layer="20"/>
 <hole x="5.08" y="86.36" drill="4.5"/>
 <hole x="93.98" y="86.36" drill="4.5"/>
 <hole x="5.08" y="5.08" drill="4.5"/>
@@ -1062,10 +1062,10 @@ design rules under a new name.</description>
 <wire x1="43.6" y1="80.26" x2="47.922" y2="84.582" width="1" layer="16"/>
 <contactref element="POWER_OUT" pad="1"/>
 <wire x1="47.922" y1="84.582" x2="57.912" y2="84.582" width="1" layer="16"/>
-<wire x1="57.912" y1="84.582" x2="76.7316" y2="84.582" width="1" layer="16"/>
-<wire x1="76.7316" y1="84.582" x2="76.7842" y2="84.6346" width="1" layer="16"/>
 <contactref element="POWER_OUT" pad="2"/>
-<wire x1="57.912" y1="84.582" x2="60.452" y2="84.582" width="0" layer="19" extent="1-1"/>
+<wire x1="57.912" y1="84.582" x2="60.452" y2="84.582" width="1" layer="16"/>
+<wire x1="60.452" y1="84.582" x2="76.7316" y2="84.582" width="1" layer="16"/>
+<wire x1="76.7316" y1="84.582" x2="76.7842" y2="84.6346" width="1" layer="16"/>
 </signal>
 <signal name="GND" class="1">
 <contactref element="GSM" pad="6"/>
@@ -1099,10 +1099,7 @@ design rules under a new name.</description>
 <wire x1="3.6" y1="67.46" x2="6" y2="65.06" width="1" layer="16"/>
 <wire x1="6" y1="63.06" x2="6.35" y2="62.764" width="1" layer="16"/>
 <wire x1="3.6" y1="67.46" x2="3.35" y2="67.564" width="1" layer="16"/>
-<wire x1="14.4" y1="67.06" x2="18" y2="67.06" width="1" layer="16"/>
-<wire x1="7.6" y1="73.86" x2="14.4" y2="67.06" width="1" layer="16"/>
-<wire x1="5.6" y1="73.86" x2="7.6" y2="73.86" width="1" layer="16"/>
-<wire x1="18" y1="67.06" x2="17.018" y2="66.802" width="1" layer="16"/>
+<wire x1="7.6" y1="73.86" x2="5.6" y2="73.86" width="1" layer="16"/>
 <wire x1="5.6" y1="73.86" x2="5.588" y2="74.246" width="1" layer="16"/>
 <wire x1="3.6" y1="71.46" x2="3.6" y2="67.86" width="1" layer="16"/>
 <wire x1="5.6" y1="73.46" x2="3.6" y2="71.46" width="1" layer="16"/>
@@ -1171,8 +1168,10 @@ design rules under a new name.</description>
 <wire x1="35.18148125" y1="62.764" x2="6.35" y2="62.764" width="1" layer="16"/>
 <contactref element="POWER_OUT" pad="16"/>
 <contactref element="POWER_IN" pad="16"/>
-<wire x1="58.142" y1="66.802" x2="60.452" y2="66.802" width="0" layer="19" extent="16-16"/>
-<wire x1="19.558" y1="66.802" x2="17.018" y2="66.802" width="0" layer="19" extent="1-1"/>
+<wire x1="60.452" y1="66.802" x2="57.912" y2="66.802" width="1" layer="16"/>
+<wire x1="19.558" y1="66.802" x2="17.018" y2="66.802" width="1" layer="16"/>
+<wire x1="17.018" y1="66.802" x2="14.658" y2="66.802" width="1" layer="16"/>
+<wire x1="14.658" y1="66.802" x2="7.6" y2="73.86" width="1" layer="16"/>
 </signal>
 <signal name="COL3">
 <contactref element="KEYPAD" pad="7"/>
@@ -1320,12 +1319,11 @@ design rules under a new name.</description>
 <signal name="12V" class="1">
 <contactref element="VIN" pad="1"/>
 <contactref element="POWER_IN" pad="1"/>
-<wire x1="12" y1="84.26" x2="18" y2="84.26" width="1" layer="16"/>
-<wire x1="5.6" y1="77.86" x2="12" y2="84.26" width="1" layer="16"/>
-<wire x1="18" y1="84.26" x2="17.018" y2="84.582" width="1" layer="16"/>
 <wire x1="5.6" y1="77.86" x2="5.588" y2="77.746" width="1" layer="16"/>
 <contactref element="POWER_IN" pad="2"/>
-<wire x1="17.018" y1="84.582" x2="19.558" y2="84.582" width="0" layer="19" extent="1-1"/>
+<wire x1="19.558" y1="84.582" x2="17.018" y2="84.582" width="1" layer="16"/>
+<wire x1="17.018" y1="84.582" x2="12.322" y2="84.582" width="1" layer="16"/>
+<wire x1="12.322" y1="84.582" x2="5.6" y2="77.86" width="1" layer="16"/>
 </signal>
 <signal name="N$1">
 <polygon width="1" layer="16" orphans="yes">
@@ -1338,62 +1336,62 @@ design rules under a new name.</description>
 <signal name="P13">
 <contactref element="POWER_IN" pad="3"/>
 <contactref element="POWER_IN" pad="4"/>
-<wire x1="17.018" y1="82.042" x2="19.558" y2="82.042" width="0" layer="19" extent="1-1"/>
+<wire x1="17.018" y1="82.042" x2="19.558" y2="82.042" width="1" layer="16"/>
 </signal>
 <signal name="P14">
 <contactref element="POWER_IN" pad="5"/>
 <contactref element="POWER_IN" pad="6"/>
-<wire x1="17.018" y1="79.502" x2="19.558" y2="79.502" width="0" layer="19" extent="1-1"/>
+<wire x1="19.558" y1="79.502" x2="17.018" y2="79.502" width="1" layer="16"/>
 </signal>
 <signal name="P15">
 <contactref element="POWER_IN" pad="7"/>
 <contactref element="POWER_IN" pad="8"/>
-<wire x1="17.018" y1="76.962" x2="19.558" y2="76.962" width="0" layer="19" extent="1-1"/>
+<wire x1="17.018" y1="76.962" x2="19.558" y2="76.962" width="1" layer="16"/>
 </signal>
 <signal name="P16">
 <contactref element="POWER_IN" pad="9"/>
 <contactref element="POWER_IN" pad="10"/>
-<wire x1="17.018" y1="74.422" x2="19.558" y2="74.422" width="0" layer="19" extent="1-1"/>
+<wire x1="19.558" y1="74.422" x2="17.018" y2="74.422" width="1" layer="16"/>
 </signal>
 <signal name="P17">
 <contactref element="POWER_IN" pad="11"/>
 <contactref element="POWER_IN" pad="12"/>
-<wire x1="17.018" y1="71.882" x2="19.558" y2="71.882" width="0" layer="19" extent="1-1"/>
+<wire x1="17.018" y1="71.882" x2="19.558" y2="71.882" width="1" layer="16"/>
 </signal>
 <signal name="P18">
 <contactref element="POWER_IN" pad="13"/>
 <contactref element="POWER_IN" pad="14"/>
-<wire x1="17.018" y1="69.342" x2="19.558" y2="69.342" width="0" layer="19" extent="1-1"/>
+<wire x1="19.558" y1="69.342" x2="17.018" y2="69.342" width="1" layer="16"/>
 </signal>
 <signal name="P23">
 <contactref element="POWER_OUT" pad="3"/>
 <contactref element="POWER_OUT" pad="4"/>
-<wire x1="57.912" y1="82.042" x2="60.452" y2="82.042" width="0" layer="19" extent="1-1"/>
+<wire x1="60.452" y1="82.042" x2="57.912" y2="82.042" width="1" layer="16"/>
 </signal>
 <signal name="P24">
 <contactref element="POWER_OUT" pad="5"/>
 <contactref element="POWER_OUT" pad="6"/>
-<wire x1="57.912" y1="79.502" x2="60.452" y2="79.502" width="0" layer="19" extent="1-1"/>
+<wire x1="57.912" y1="79.502" x2="60.452" y2="79.502" width="1" layer="16"/>
 </signal>
 <signal name="P25">
 <contactref element="POWER_OUT" pad="7"/>
 <contactref element="POWER_OUT" pad="8"/>
-<wire x1="57.912" y1="76.962" x2="60.452" y2="76.962" width="0" layer="19" extent="1-1"/>
+<wire x1="57.912" y1="76.962" x2="60.452" y2="76.962" width="1" layer="16"/>
 </signal>
 <signal name="P26">
 <contactref element="POWER_OUT" pad="9"/>
 <contactref element="POWER_OUT" pad="10"/>
-<wire x1="57.912" y1="74.422" x2="60.452" y2="74.422" width="0" layer="19" extent="1-1"/>
+<wire x1="60.452" y1="74.422" x2="57.912" y2="74.422" width="1" layer="16"/>
 </signal>
 <signal name="P27">
 <contactref element="POWER_OUT" pad="11"/>
 <contactref element="POWER_OUT" pad="12"/>
-<wire x1="57.912" y1="71.882" x2="60.452" y2="71.882" width="0" layer="19" extent="1-1"/>
+<wire x1="57.912" y1="71.882" x2="60.452" y2="71.882" width="1" layer="16"/>
 </signal>
 <signal name="P28">
 <contactref element="POWER_OUT" pad="13"/>
 <contactref element="POWER_OUT" pad="14"/>
-<wire x1="57.912" y1="69.342" x2="60.452" y2="69.342" width="0" layer="19" extent="1-1"/>
+<wire x1="60.452" y1="69.342" x2="57.912" y2="69.342" width="1" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
